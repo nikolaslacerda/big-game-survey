@@ -3,7 +3,7 @@ package com.dssurvey.server.dto;
 import java.io.Serializable;
 import java.time.Instant;
 
-import com.dssurvey.server.entities.Record;
+import com.dssurvey.server.model.Record;
 import com.dssurvey.server.enums.Platform;
 
 public class RecordDTO implements Serializable {

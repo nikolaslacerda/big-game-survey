@@ -1,4 +1,4 @@
-package com.dssurvey.server.repositories;
+package com.dssurvey.server.repository;
 
 import java.time.Instant;
 
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.dssurvey.server.entities.Record;
+import com.dssurvey.server.model.Record;
 
 @Repository
 public interface RecordRepository extends JpaRepository<Record, Long>{

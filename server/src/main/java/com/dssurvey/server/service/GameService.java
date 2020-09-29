@@ -1,4 +1,4 @@
-package com.dssurvey.server.services;
+package com.dssurvey.server.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.dssurvey.server.dto.GameDTO;
-import com.dssurvey.server.entities.Game;
-import com.dssurvey.server.repositories.GameRepository;
+import com.dssurvey.server.model.Game;
+import com.dssurvey.server.repository.GameRepository;
 
 @Service
 public class GameService {

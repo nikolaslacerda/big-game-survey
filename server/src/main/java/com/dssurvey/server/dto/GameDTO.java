@@ -2,7 +2,7 @@ package com.dssurvey.server.dto;
 
 import java.io.Serializable;
 
-import com.dssurvey.server.entities.Game;
+import com.dssurvey.server.model.Game;
 import com.dssurvey.server.enums.Platform;
 
 public class GameDTO implements Serializable {

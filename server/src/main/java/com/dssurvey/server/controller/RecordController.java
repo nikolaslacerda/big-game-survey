@@ -1,4 +1,4 @@
-package com.dssurvey.server.controllers;
+package com.dssurvey.server.controller;
 
 import java.time.Instant;
 
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.dssurvey.server.dto.RecordDTO;
 import com.dssurvey.server.dto.RecordInsertDTO;
-import com.dssurvey.server.services.RecordService;
+import com.dssurvey.server.service.RecordService;
 
 @RestController
 @RequestMapping(value = "/records")

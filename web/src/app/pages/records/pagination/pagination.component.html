@@ -1,0 +1,10 @@
+<div class="pagination-container">
+  <ng-container *ngFor="let item of paginationItems">
+    <button
+    key={item}
+    class="pagination-item active"
+    (click) = "goToPage(item)">
+      {{item + 1}}
+    </button>
+  </ng-container>
+</div>

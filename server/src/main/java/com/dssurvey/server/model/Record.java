@@ -1,4 +1,4 @@
-package com.dssurvey.server.entities;
+package com.dssurvey.server.model;
 
 import java.io.Serializable;
 import java.time.Instant;

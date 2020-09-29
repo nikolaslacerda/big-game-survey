@@ -1,0 +1,33 @@
+<div class="page-container">
+  <!--<Filters link="/charts" linkText="VER GRÁFICO" />-->
+
+  <table class="records-table" cellPadding="0" cellSpacing="0">
+      <thead>
+          <tr >
+              <th>INSTANTE</th>
+              <th>NOME</th>
+              <th>IDADE</th>
+              <th>PLATAFORMA</th>
+              <th>GÊNERO</th>
+              <th>TÍTULO DO GAME</th>
+          </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let record of records">
+              <tr key={{record.id}}>
+                  <td>{{record.moment}}</td>
+                  <td>{{record.name}}</td>
+                  <td>{{record.age}}</td>
+                  <td className="text-secondary">{{record.gamePlatform}}</td>
+                  <td>{{record.genreName}}</td>
+                  <td className="text-primary">{{record.gameTitle}}</td>
+              </tr>
+        </ng-container>
+      </tbody>
+  </table>
+  <app-pagination
+   [activePage]="activePage"
+   [goToPage]="handlePageChange"
+   [totalPages]="totalPages"
+   ></app-pagination>
+</div>

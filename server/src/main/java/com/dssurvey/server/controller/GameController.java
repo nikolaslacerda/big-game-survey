@@ -1,4 +1,4 @@
-package com.dssurvey.server.controllers;
+package com.dssurvey.server.controller;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.dssurvey.server.dto.GameDTO;
-import com.dssurvey.server.services.GameService;
+import com.dssurvey.server.service.GameService;
 
 @RestController
 @RequestMapping(value = "/games")

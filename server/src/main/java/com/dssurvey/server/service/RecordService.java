@@ -1,4 +1,4 @@
-package com.dssurvey.server.services;
+package com.dssurvey.server.service;
 
 import java.time.Instant;
 
@@ -10,10 +10,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.dssurvey.server.dto.RecordDTO;
 import com.dssurvey.server.dto.RecordInsertDTO;
-import com.dssurvey.server.entities.Game;
-import com.dssurvey.server.entities.Record;
-import com.dssurvey.server.repositories.GameRepository;
-import com.dssurvey.server.repositories.RecordRepository;
+import com.dssurvey.server.model.Game;
+import com.dssurvey.server.model.Record;
+import com.dssurvey.server.repository.GameRepository;
+import com.dssurvey.server.repository.RecordRepository;
 
 @Service
 public class RecordService {
